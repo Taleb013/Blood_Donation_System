@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/bg_front">
+
+    <androidx.gridlayout.widget.GridLayout
+        android:id="@+id/myGridLayout"
+        android:layout_width="382dp"
+        android:layout_height="407dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.498">
+
+        <Button
+            android:id="@+id/donor"
+            android:layout_width="128dp"
+            android:layout_height="116dp"
+            android:backgroundTint="@color/red"
+            android:gravity="center"
+            android:text="Donor"
+            app:layout_column="0"
+            app:layout_row="0" />
+
+        <Button
+            android:id="@+id/map"
+            android:layout_width="130dp"
+            android:layout_height="132dp"
+            android:backgroundTint="@color/red"
+            android:text="MAP"
+            app:layout_column="1"
+            app:layout_row="0" />
+
+        <Button
+            android:id="@+id/seeker"
+            android:layout_width="113dp"
+            android:layout_height="124dp"
+            android:backgroundTint="@color/red"
+            android:text="Seeker"
+            app:layout_column="2"
+            app:layout_row="0" />
+
+        <Button
+            android:id="@+id/request"
+            android:layout_width="126dp"
+            android:layout_height="123dp"
+            android:backgroundTint="@color/red"
+            android:text="Request"
+            app:layout_column="0"
+            app:layout_row="1" />
+
+        <Button
+            android:id="@+id/hospital"
+            android:layout_width="130dp"
+            android:layout_height="132dp"
+            android:backgroundTint="@color/red"
+            android:text="hospital"
+            app:layout_column="1"
+            app:layout_row="1" />
+
+
+        <Button
+            android:id="@+id/bank"
+            android:layout_width="111dp"
+            android:layout_height="126dp"
+            android:backgroundTint="@color/red"
+            android:text="BANK"
+            app:layout_column="2"
+            app:layout_row="1" />
+
+        <Button
+            android:id="@+id/profile"
+            android:layout_width="121dp"
+            android:layout_height="123dp"
+            android:backgroundTint="@color/red"
+            android:text="PROFILE"
+            app:layout_column="0"
+            app:layout_row="2" />
+
+        <Button
+            android:id="@+id/faq"
+            android:layout_width="130dp"
+            android:layout_height="132dp"
+            android:backgroundTint="@color/red"
+            android:text="F.A.Q"
+            app:layout_column="1"
+            app:layout_row="2" />
+
+        <Button
+            android:id="@+id/social"
+            android:layout_width="111dp"
+            android:layout_height="128dp"
+            android:backgroundTint="@color/red"
+            android:text="Social"
+            app:layout_column="2"
+            app:layout_row="2" />
+
+    </androidx.gridlayout.widget.GridLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="303dp"
+        android:layout_height="59dp"
+        android:autoSizeMaxTextSize="30sp"
+        android:autoSizeMinTextSize="10sp"
+        android:autoSizeStepGranularity="1sp"
+        android:autoSizeTextType="uniform"
+        android:gravity="center"
+        android:text="A Single drop of blood can save life"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/myGridLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.62"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.536" />
+
+    <Button
+        android:id="@+id/donorList"
+        android:layout_width="165dp"
+        android:layout_height="65dp"
+        android:text="Donor List"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/myGridLayout" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

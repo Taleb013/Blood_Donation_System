@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/faq_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Frequently Asked Questions"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:padding="16dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Q1: Who can donate blood?"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:padding="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="A: Anyone healthy, aged between 18-65, and weighing more than 50kg can donate blood."
+                android:textSize="16sp"
+                android:padding="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Q2: How often can I donate blood?"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:padding="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="A: You can donate whole blood every 56 days."
+                android:textSize="16sp"
+                android:padding="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Q3: What should I do before donating?"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:padding="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="A: Stay hydrated, eat a healthy meal, and avoid alcohol or caffeine before donating."
+                android:textSize="16sp"
+                android:padding="8dp" />
+
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Q4: Can I donate blood if I have a tattoo?" android:textSize="18sp" android:textStyle="bold" android:padding="8dp" />
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:textColor="@color/black" android:text="A: Yes, but you must wait at least 6 months after getting a tattoo. " android:textSize="16sp" android:padding="8dp" />
+
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Q5: Can I donate if I have diabetes?" android:textSize="18sp" android:textStyle="bold" android:padding="8dp" />
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:textColor="@color/black" android:text="A: Yes, if your diabetes is well controlled and you are not on insulin injections." android:textSize="16sp" android:padding="8dp" />
+
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Q6: What are the benefits of donating blood?" android:textSize="18sp" android:textStyle="bold" android:padding="8dp" />
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:textColor="@color/black" android:text="A: It helps save lives, improves blood circulation, and reduces harmful iron stores in the body." android:textSize="16sp" android:padding="8dp" />
+
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Q7: How long does the donation process take?" android:textSize="18sp" android:textStyle="bold" android:padding="8dp" />
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:textColor="@color/black" android:text="A: The whole process takes about 45 minutes to an hour, but the actual blood collection takes 10-15 minutes." android:textSize="16sp" android:padding="8dp" />
+
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Q8: Can I donate blood if I am taking medication?" android:textSize="18sp" android:textStyle="bold" android:padding="8dp" />
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:textColor="@color/black" android:text="A: It depends on the medication. Consult with a doctor before donating." android:textSize="16sp" android:padding="8dp" />
+
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Q9: How will I feel after donating blood?" android:textSize="18sp" android:textStyle="bold" android:padding="8dp" />
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:textColor="@color/black" android:text="A: Most people feel fine, but some may experience mild dizziness or fatigue." android:textSize="16sp" android:padding="8dp" />
+
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Q10: How is my blood used?" android:textSize="18sp" android:textStyle="bold" android:padding="8dp" />
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:textColor="@color/black" android:text="A: Your blood is separated into components and used for patients in need, including accident victims and those undergoing surgeries." android:textSize="16sp" android:padding="8dp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

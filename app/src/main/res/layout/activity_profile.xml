@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/ivProfilePicture"
+        android:layout_width="170dp"
+        android:layout_height="140dp"
+        android:layout_gravity="center"
+        android:contentDescription="Profile Picture"
+        android:src="@drawable/naruto" />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/tvAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Age : An integer"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/tvBloodType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Blood Type :  deep red"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/tvPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/btnEditProfile"
+        android:layout_width="377dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="16dp"
+        android:text="Edit Profile" />
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="371dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/deep_pink"
+        android:text="EXIT this way 🏃‍♂️‍➡️" />
+</LinearLayout>

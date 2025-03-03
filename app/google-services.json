@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "315055866871",
+    "project_id": "taleb1",
+    "storage_bucket": "taleb1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:315055866871:android:5cac7b376000185fe6e4f2",
+        "android_client_info": {
+          "package_name": "com.example.blood"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdVk3wUM-ZiKwpM25rCZQCyp8NQzXUulk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

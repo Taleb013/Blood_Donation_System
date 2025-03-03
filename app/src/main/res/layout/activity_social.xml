@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center"
+    android:background="@color/light_gray">
+
+    <!-- Motivational Quote -->
+    <TextView
+        android:id="@+id/textQuote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="“Success is not the key to happiness. Happiness is the key to success.”"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:textStyle="bold|italic"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- Facebook Button -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="8dp"
+        app:cardBackgroundColor="@android:color/white"
+        android:layout_marginBottom="16dp">
+
+        <ImageButton
+            android:id="@+id/btnFacebook"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop"
+            android:background="?android:attr/selectableItemBackground"
+            android:contentDescription="Facebook"
+            android:src="@drawable/img_1" />
+    </androidx.cardview.widget.CardView>
+
+    <!-- LinkedIn Button -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="8dp"
+        app:cardBackgroundColor="@android:color/white">
+
+        <ImageButton
+            android:id="@+id/btnLinkedIn"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop"
+            android:background="?android:attr/selectableItemBackground"
+            android:contentDescription="LinkedIn"
+            android:src="@drawable/common_google_signin_btn_icon_dark_focused" />
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:background="@android:color/white"
+    android:elevation="2dp">
+
+    <TextView
+        android:id="@+id/donorPhone"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="Phone"
+        android:textStyle="bold"/>
+
+<!--    <TextView-->
+<!--        android:id="@+id/donorDOB"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_weight="1"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="DOB"/>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/donorWeight"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_weight="1"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Weight"/>-->
+
+    <TextView
+        android:id="@+id/donorAddress"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="Address"/>
+
+    <TextView
+        android:id="@+id/donorGender"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="Gender"/>
+
+    <TextView
+        android:id="@+id/donorBloodGroup"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="Blood Group"/>
+</LinearLayout>

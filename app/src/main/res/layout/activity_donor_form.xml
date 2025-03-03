@@ -1,0 +1,111 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/img_2"
+    android:padding="20dp">
+
+    <!-- Profile Section -->
+
+    <!-- Profile Image -->
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp"
+        android:text=" Fill details of the donor :"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/phoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Phone Number"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:inputType="phone"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Blood Group Spinner -->
+    <Spinner
+        android:id="@+id/bloodGroupSpinner"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:spinnerMode="dropdown"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Gender Selection -->
+    <RadioGroup
+        android:id="@+id/genderGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="16dp">
+        <RadioButton
+            android:id="@+id/maleRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="Male" />
+        <RadioButton
+            android:id="@+id/femaleRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="Female" />
+    </RadioGroup>
+
+    <!-- Date of Birth Input -->
+    <EditText
+        android:id="@+id/dateOfBirth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Date of Birth (YYYY-MM-DD)"
+        android:textColorHint="@color/black"
+        android:inputType="date"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Weight Input -->
+    <EditText
+        android:id="@+id/weight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Weight (kg)"
+        android:textColorHint="@color/black"
+        android:inputType="number"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Donor Address Section -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Donor's Home"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingTop="24dp"
+        android:paddingBottom="16dp"/>
+
+    <!-- Address Input -->
+    <EditText
+        android:id="@+id/addressText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Address"
+        android:textColorHint="@color/black"
+        android:inputType="text"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Submit Button -->
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@color/colorPrimary"
+        android:text="Submit"
+        android:textColor="#090505" />
+
+</LinearLayout>
